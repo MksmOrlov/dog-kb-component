@@ -1,0 +1,26 @@
+concept_dog
+<- sc_node_class;
+<= nrel_inclusion:
+	concept_animal;
+=> nrel_main_idtf:
+	[собака]
+	(* <- lang_ru;; *);
+	[dog]
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+		[Опр. (кот)]
+		(* <- lang_ru;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Собака — это домашнее животное которое лает.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+-> dog_berta;
+-> dog_kuzka;;
+

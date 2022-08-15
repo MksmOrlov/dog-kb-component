@@ -1,0 +1,13 @@
+dog_specification
+<- atomic_component;
+<- kb_component;
+
+=> nrel_author: Orlov;
+=> nrel_explanation: [Semantic neighbourhood of dog.] (*<- lang_en;;*);
+
+=> nrel_inner_deps: ...;
+=> nrel_outer_deps: ...;
+=> nrel_upstream_url: [https://github.com/MksmOrlov/dog-kb-component] (*<- github_url;;*);
+=> nrel_installation_command: [git clone https://github.com/MksmOrlov/dog-kb-component
+./build_kb.sh];;
+
