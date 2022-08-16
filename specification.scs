@@ -1,6 +1,7 @@
 dog_specification
-<- atomic_component;
-<- kb_component;
+<- concept_reusable_component;
+<- concept_atomic_component;
+<- concept_kb_component;
 
 => nrel_author: Orlov;
 => nrel_explanation: [Semantic neighbourhood of dog.] (*<- lang_en;;*);
