@@ -3,7 +3,7 @@ dog_specification
 <- concept_atomic_component;
 <- concept_kb_component;
 
-=> nrel_author: Orlov;
+=> nrel_author: ... (* -> Zotov;; *);
 => nrel_explanation: [Semantic neighbourhood of dog.] (*<- lang_en;;*);
 
 => nrel_inner_deps: ...;
