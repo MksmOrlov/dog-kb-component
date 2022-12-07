@@ -10,7 +10,7 @@ concept_dog
 	...
 	(*
 	=> nrel_main_idtf:
-		[Опр. (кот)]
+		[Опр. (собака)]
 		(* <- lang_ru;; *);;
 	<- definition;;
 	<= nrel_sc_text_translation:
