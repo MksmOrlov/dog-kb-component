@@ -6,6 +6,7 @@ concept_dog
 	[собака]
 	(* <- lang_ru;; *);
 	[dog]
+    (* <- lang_en;; *);
 <- rrel_key_sc_element:
 	...
 	(*
