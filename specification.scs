@@ -1,12 +1,12 @@
-dog_specification
+ps_dog_specification
     <- concept_reusable_component_specification;;
 
-dog_specification = [*
-concept_dog
+ps_dog_specification = [*
+concept_dog_ps
     <- concept_reusable_component;
     <- concept_atomic_reusable_component;
     <- concept_independent_reusable_component;
-    <- concept_reusable_kb_component;
+    <- concept_reusable_ps_component;
     <- concept_reusable_dynamically_installed_component;
     <- concept_reusable_source_code_component;
 
@@ -17,7 +17,7 @@ concept_dog
     => nrel_authors: ... (* -> Orlov;; *);
     => nrel_component_dependencies: ... (* <- empty_set;; *);
 
-    => nrel_component_address: [https://github.com/MksmOrlov/dog-kb-component] (* <- github_url;; *);
+    => nrel_component_address: [https://github.com/MksmOrlov/dog-kb-component] (* <- concept_github_url;; *);
     => nrel_installation_method: ... (* <- concept_component_dynamically_installed_method;; *);;
 *];;
 
